@@ -28,7 +28,7 @@ for (let i = hacker2.length -1; i >= 0  ; i-- ){
 
 
 
-  
+
 
     let name1 ="Max";
     for (let i = 0; i<= name1.length-1; i++){
@@ -93,4 +93,7 @@ for (let j = phrase.length -1; j >= 0; j--){
 
 if (arr1.toString().toUppercase === arr2.toString().toUppercase){
   console.log("That sentence is Palindrome")
+}
+else{
+    console.log("That sentence is not Palindrome")
 }
