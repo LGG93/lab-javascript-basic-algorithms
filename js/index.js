@@ -30,19 +30,13 @@ for (let i = hacker2.length -1; i >= 0  ; i-- ){
 
 
 
-    let name1 ="Max";
-    for (let i = 0; i<= name1.length-1; i++){
-   
-    if (name1[i] = name1.indexOf("1")){
-   
-    let b = name1[i]+ " " + name1[i+1]+ " " + name1[i+2];
-   
-    console.log(b)
-   
-    }
-    break;
-  };
+  let name1 ="";
+      for (let i = 0; i<= hacker1.length-1; i++){
+    name1+= hacker1[i] + " ";
+     
+      };
 
+   console.log(name1);
 
 
 
